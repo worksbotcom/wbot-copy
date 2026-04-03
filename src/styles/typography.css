@@ -1,0 +1,7 @@
+/* =========================
+Default Body and Typography styles
+=========================== */
+body {
+  @apply font-inter-tight antialiased;
+  font-family: 'Graphik', 'IBM Plex Sans Arabic', sans-serif !important;
+}

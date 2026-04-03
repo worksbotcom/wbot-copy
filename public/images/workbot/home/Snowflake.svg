@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg height="60" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" width="60">
+<g id="s"><path id="r" fill="none" stroke="#70D"
+stroke-width="2" stroke-linecap="round" 
+d="m39,4-9,9-9-9m9-2v56m9-1-9-9-9,9"/>
+<use xlink:href="#r" transform="rotate(45 30,30)"/></g>
+<use xlink:href="#s" transform="rotate(90 30,30)"/>
+</svg>
