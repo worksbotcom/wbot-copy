@@ -29,10 +29,7 @@ const CtaInputForm = ({ btnClass, ctaBtnText = 'Get Started', inputFieldClass }:
         />
         <button
           type="submit"
-          className={cn(
-            'btn btn-md btn-primary hover:btn-secondary dark:hover:btn-accent h-12 w-[85%] md:w-auto',
-            btnClass,
-          )}
+          className= {cn('btn btn-secondary btn-md rounded-sm')}
           aria-label="cta-button">
           <span>{ctaBtnText}</span>
         </button>

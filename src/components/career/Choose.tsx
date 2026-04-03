@@ -36,7 +36,7 @@ const Choose = () => {
             <div className="mx-auto max-w-[500px] space-y-5 sm:space-y-8 lg:mx-0 lg:max-w-full">
               <div className="space-y-5">
                 <RevealAnimation delay={0.1}>
-                  <h1 className='font-bold'>WHY <span className='text-primary-600'>WORKSBOT</span></h1>
+                  <h1 className="text-[clamp(32px,4vw,64px)]  leading-[1.15] max-w-[900px] text-balance font-bold">Why <span>Worksbot</span></h1>
                 </RevealAnimation>
                 <div className="space-y-3">
                   <RevealAnimation delay={0.2}>

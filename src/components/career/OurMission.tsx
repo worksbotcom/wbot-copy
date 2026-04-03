@@ -18,7 +18,7 @@ const OurMission = () => {
           <div className="mx-auto max-w-[540px] flex-1 space-y-14 text-center lg:mx-0 lg:max-w-full lg:text-left">
             <div className="space-y-3">
               <RevealAnimation delay={0.1}>
-                <h1 className='font-bold'>OUR <span  className='text-primary-600'>MISSION</span></h1>
+                <h1 className="text-[clamp(32px,4vw,64px)]  leading-[1.15] max-w-[900px] text-balance font-bold">Our <span>Mission</span></h1>
               </RevealAnimation>
               <RevealAnimation delay={0.1}>
                 <h2>Powering the Next Generation of Work</h2>

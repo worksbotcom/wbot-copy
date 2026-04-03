@@ -1,16 +1,19 @@
-
+import bannerImage from '@public/images/careerpicture.png';
 import RevealAnimation from '../animation/RevealAnimation';
+import Image from 'next/image';
 
 const Main = () => {
   return (
-    <section className="pt-16 md:pt-20 lg:pt-[90px] xl:pt-[100px] pb-16 md:pb-20 lg:pb-[90px] xl:pb-[100px] bg-background-2 dark:bg-background-5">
+    <section className="pt-32 pb-[100px] sm:pt-36 md:pt-42 xl:pt-[180px] xl:pb-[100px]">
       <div className="main-container">
-        <div className="text-center space-y-4 md:space-y-5 max-w-[850px] mx-auto lg:mb-14 mb-10">
-          <RevealAnimation delay={0.1}>
-            <h1 className="font-bold text-center">
-            Build the Future of <span className="text-primary-600">Work with AI</span>
+        <div className="text-center space-y-4 md:space-y-5 max-w-[850px] mx-auto lg:mb-14 mb-10 px-4">
+        <RevealAnimation delay={0.1}>
+          <div className="flex justify-center">
+            <h1 className="text-[clamp(28px,5vw,64px)] leading-[1.1] font-bold text-center text-balance whitespace-normal lg:whitespace-nowrap max-w-fit">
+              Build the Future of <span>Work with AI</span>
             </h1>
-          </RevealAnimation>
+          </div>
+        </RevealAnimation>
           <div>
             <RevealAnimation delay={0.2}>
               <p className="mb-3 text-2xl text-gray-900">At Worksbot, we’re not just building software — we’re creating AI-powered workforces that transform how businesses operate.</p>
@@ -21,7 +24,13 @@ const Main = () => {
               </p>
             </RevealAnimation>
           </div>
+          
         </div>
+          <RevealAnimation delay={0.4}>
+          <figure className="mb-18">
+            <Image src={bannerImage} alt="banner-image" className="rounded-2xl" />
+          </figure>
+        </RevealAnimation>
       </div>
     </section>
   );

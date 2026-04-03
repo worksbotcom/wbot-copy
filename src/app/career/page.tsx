@@ -1,12 +1,12 @@
 import FooterThree from '@/components/shared/footer/FooterThree';
 import NavbarThree from '@/components/shared/header/NavbarThree';
 import { Metadata } from 'next';
-import Benefits from '@/components/career/Growth';
 import Build from '@/components/career/Build';
 import OurMission from '@/components/career/OurMission';
 import Apply from '@/components/career/Apply';
 import Choose from '@/components/career/Choose';
 import Main from '@/components/career/Main';
+import Growth from '@/components/career/Growth';
 
 
 export const metadata: Metadata = {
@@ -36,7 +36,7 @@ const ContactUs = () => {
         <Main/>
         <Choose/>
        <Build/>
-       <Benefits/>
+       <Growth/>
         <OurMission/>
         <Apply/>
       </main>
